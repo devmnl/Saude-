@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .dashboard {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 50%;
+  }
+  
+  .monitoramento {
+    text-align: center;
+  }
+  
+  .monitoramento h2 {
+    font-size: 1.8rem;
+    color: #4CAF50;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat {
+    background-color: #e9f5e9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+  }
+  
+  .stat h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .stat p {
+    font-size: 2rem;
+    color: #4CAF50;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #666;
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .dashboard {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .stats {
+      flex-direction: column;
+    }
+  
+    .stat {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .image img {
+      max-width: 100%;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .monitoramento h2 {
+      font-size: 1.5rem;
+    }
+  
+    .stat h3 {
+      font-size: 1rem;
+    }
+  
+    .stat p {
+      font-size: 1.5rem;
+    }
+  
+    .btn {
+      padding: 8px 16px;
+      font-size: 1rem;
+    }
+  }
+  
