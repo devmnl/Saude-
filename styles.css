@@ -17,12 +17,36 @@
     text-align: center;
   }
   
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
   header h1 {
     font-size: 2.5rem;
   }
   
   header p {
     font-size: 1.2rem;
+  }
+  
+  .ai-info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ai-info i {
+    font-size: 1.5rem;
+    margin-right: 8px;
+  }
+  
+  .ai-info span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
   }
   
   main {
@@ -88,7 +112,9 @@
   
   .image img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 55px;
   }
   
   footer {
@@ -149,4 +175,5 @@
       font-size: 1rem;
     }
   }
+  
   
